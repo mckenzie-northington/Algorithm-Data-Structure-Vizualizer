@@ -5,6 +5,8 @@ watching canned animations, you type your own values, edit data directly with th
 build your own graphs and mazes, and step forwards/backwards through every operation with
 a plain-English explanation of what is happening.
 
+![Dijkstra's shortest path on a user-built graph](docs/screenshots/graph.png)
+
 ## What you can play with
 
 | Tab | Try this |
@@ -17,6 +19,19 @@ a plain-English explanation of what is happening.
 | **Hash Table** | Separate chaining vs. linear probing (with tombstones). Change the table size to watch keys rehash, see the hash computation and load factor. |
 | **Graph** | Click to add nodes, drag between nodes to add weighted edges, scroll to change weights, toggle directed. Run BFS, DFS, Dijkstra and Prim's MST; after Dijkstra, hover a node to see its shortest path. |
 | **Pathfinding** | Paint walls and weighted cells on a grid, drag start/goal, generate mazes. Compare BFS, DFS, Dijkstra, A* and Greedy best-first. After a run, moving the start/goal re-solves instantly. |
+
+## Screenshots
+
+| | |
+|---|---|
+| **Sorting** — Quick sort partitioning around a pivot | **Stack** — checking brackets with a stack |
+| ![Sorting](docs/screenshots/sorting.png) | ![Stack bracket checker](docs/screenshots/stack-queue.png) |
+| **Linked List** — reversing pointers in place | **BST** — in-order traversal outputs sorted values |
+| ![Linked list reversal](docs/screenshots/linked-list.png) | ![BST traversal](docs/screenshots/bst.png) |
+| **Heap** — new value sifting up, tree and array views | **Hash Table** — linear probing after collisions |
+| ![Heap insert](docs/screenshots/heap.png) | ![Hash table probing](docs/screenshots/hash-table.png) |
+| **Graph** — Dijkstra, hovering a node shows its path | **Pathfinding** — A* solving a generated maze |
+| ![Graph Dijkstra](docs/screenshots/graph.png) | ![A* pathfinding](docs/screenshots/pathfinding.png) |
 
 ## Controls
 
